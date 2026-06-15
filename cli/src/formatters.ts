@@ -11,9 +11,9 @@ function buildHeader(capsule: ContextCapsule): string {
   const lines = [
     '┌─────────────────────────────────────────────┐',
     `│  CapX - Context Import                       │`,
-    `│  Source: ${capsule.source.padEnd(34)}│`,
-    `│  Model: ${capsule.model.padEnd(35)}│`,
-    `│  Title: ${capsule.title.padEnd(35)}│`,
+    `│  Source: ${capsule.source.slice(0, 34).padEnd(34)}│`,
+    `│  Model: ${capsule.model.slice(0, 35).padEnd(35)}│`,
+    `│  Title: ${capsule.title.slice(0, 35).padEnd(35)}│`,
     `│  Date:  ${new Date(capsule.timestamp).toISOString().padEnd(35)}│`,
     `│  Messages: ${String(capsule.messages.length).padEnd(28)}│`,
     '└─────────────────────────────────────────────┘',
