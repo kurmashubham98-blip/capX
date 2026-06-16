@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "types": ["wxt/browser"],
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": ["src", ".wxt/types", "wxt.config.ts"]
+}
