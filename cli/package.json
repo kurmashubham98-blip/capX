@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "type": "module",
   "bin": {
-    "capx": "./bin/capx.js"
+    "capx": "./bin/main.js"
   },
   "scripts": {
     "build": "tsup src/main.ts --format esm --out-dir bin --clean",
